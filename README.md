@@ -5,4 +5,4 @@
 >
 > 本仓库仅为娱乐，写的也很烂，推荐使用原项目的方法
 
-需要先安装 [脚本猫](https://github.com/scriptscat/scriptcat)，然后点击 [安装]()
+需要先安装 [脚本猫](https://github.com/scriptscat/scriptcat)，然后点击 [安装](https://github.com/monSteRhhe/scriptcat-skyland-auto-sign/raw/main/skyland-auto-sign.user.js)
