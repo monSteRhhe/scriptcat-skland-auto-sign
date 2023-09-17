@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         森空岛每日签到
-// @version      1.0.0
+// @version      1.0.1
 // @author       monSteRhhe
 // @icon         https://bbs.hycdn.cn/public/skland-web/image/11a014c95c5ee68fe26c17995aa44a64.png
 // @crontab      * * once * *
@@ -139,7 +139,7 @@ return new Promise((resolve, reject) => {
                                                                         for (let k of awards) {
                                                                             let res = k["resource"];
                                                                             GM_notification({
-                                                                                text: "角色" + chara[i][j]["nickName"] + "(" + chara[i][j]["channelName"] + ")签到成功，获得了" + res["name"] + "×" + res["count"],
+                                                                                text: "角色" + chara[i][j]["nickName"] + "(" + chara[i][j]["channelName"] + ")签到成功，获得了" + res["name"] + "×" + k["count"],
                                                                                 title: GM_info.script.name,
                                                                                 image: GM_info.script.icon,
                                                                             });
