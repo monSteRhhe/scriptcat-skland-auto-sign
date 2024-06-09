@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         森空岛每日自动签到
-// @version      1.2.0
+// @version      1.2.1
 // @author       monSteRhhe
 // @icon         https://bbs.hycdn.cn/public/skland-web/image/11a014c95c5ee68fe26c17995aa44a64.png
 // @crontab      * * once * *
@@ -194,6 +194,7 @@ return new Promise((resolve, reject) => {
                 }
             });
         }
+        resolve('ok');
     }
 
     /**
